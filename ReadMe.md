@@ -13,8 +13,16 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
 1. In 1-2 sentences, explain what React's `useRouteMatch` hook is used for.
+
+It makes it easy to match data from your 'route'
+
 2. How would you explain form validation to someone who has never programmed before?
+
+A form is validated by looking at a form and expecting a certain type of information in each input. It compares it to what you type into it to what is expected and either validates or throws an error depending on the input data.
+
 3. In 1-2 sentences, define end to end testing.
+
+A way to easily test a applications flow start to finish, to make sure it is working as anticipated.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section **will** prevent you from passing this challenge.
 
@@ -50,9 +58,9 @@ Your MVP should include, at a minimum, the following components.
 
 Implement the following tests in Cypress:
 
-- [ ] test that you can add text to the box
-- [ ] test that you can select multiple toppings
-- [ ] test that you can submit the form
+- [x] test that you can add text to the box
+- [x] test that you can select multiple toppings
+- [x] test that you can submit the form
 
 You may use the following wireframe (also in a folder above) as guidance as you design your site but it is not required that you do so.
 
